@@ -12,16 +12,16 @@ def main(input_vid_path, background_image_path):
     # take the background image into a variable - TODO
     background_image = background_image_path
 
-    # stabilize the input vid
-    stabilized_vid = st.stabilize(input_vid)
+    # 1 - stabilize the input vid
+    stabilized_vid = st.stabilize(input_vid_path)
 
-    # subtract background from stabilized video
+    # 2 - subtract background from stabilized video
     binary_mask_vid = bs.subtract_background(stabilized_vid)
 
-    # apply matting
+    # 3 - apply matting
     matted_vid = mt.matt(stabilized_vid, binary_mask_vid, background_image)
 
-    # apply tracking
+    # 4 - apply tracking
     output_vid = tr.track(matted_vid)
 
     return output_vid

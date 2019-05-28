@@ -12,7 +12,7 @@ def take_video_frames(input_vid_path, folder_name="input_frames"):
     input_vid = cv2.VideoCapture(input_vid_path)
     frame_num = 1
 
-    while (input_vid.isOpened()):
+    while input_vid.isOpened():
         ret, frame = input_vid.read()
         if ret:
             # save frame to frames folder
