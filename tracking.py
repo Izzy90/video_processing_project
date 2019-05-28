@@ -2,6 +2,11 @@ import cv2
 from tracking_functions import *
 
 
+def track(input_vid):
+
+    return
+
+
 ID1 = "123456789"
 ID2 = "987654321"
 
