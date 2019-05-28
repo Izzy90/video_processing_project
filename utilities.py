@@ -23,3 +23,19 @@ def take_video_frames(input_vid_path, folder_name="input_frames"):
 
     input_vid.release()
     cv2.destroyAllWindows()
+
+
+def play_video(video_path):
+    input_vid = cv2.VideoCapture(video_path)
+
+    while input_vid.isOpened():
+        ret, frame = input_vid.read()
+        if ret:
+            cv2.imshow('Frame', frame)
+            if cv2.waitKey(25) & 0xFF == ord('q'):
+                break
+        else:
+            break
+
+    input_vid.release()
+    cv2.destroyAllWindows()
