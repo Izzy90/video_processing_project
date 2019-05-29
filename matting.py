@@ -1,6 +1,6 @@
 
 
 
-def matt(input_vid, binary_mask_vid, background_image):
+def matt(input_vid, binary_mask_vid, background_image_p):
 
     return

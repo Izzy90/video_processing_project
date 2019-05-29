@@ -6,11 +6,6 @@ import utilities as ut
 
 
 def main(input_vid_path, background_image_path):
-    # create folder with frames of input video
-    ut.take_video_frames(input_vid_path)
-
-    # take the background image into a variable - TODO
-    background_image = background_image_path
 
     # 1 - stabilize the input vid
     stabilized_vid = st.stabilize(input_vid_path)
@@ -19,7 +14,7 @@ def main(input_vid_path, background_image_path):
     binary_mask_vid = bs.subtract_background(stabilized_vid)
 
     # 3 - apply matting
-    matted_vid = mt.matt(stabilized_vid, binary_mask_vid, background_image)
+    matted_vid = mt.matt(stabilized_vid, binary_mask_vid, background_image_path)
 
     # 4 - apply tracking
     output_vid = tr.track(matted_vid)
