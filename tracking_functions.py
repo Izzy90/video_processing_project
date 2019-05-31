@@ -61,7 +61,7 @@ def sample_particles(S_prev, C):
 def show_particles(I, S, W, i, ID):
     title = f"{ID} - Frame number = {i}"
     title2 = f"{ID}-{i}"
-    output_dir = "output_images"
+    output_dir = "tracked_images"
 
     # create output directory if doesn't exist
     if not os.path.exists(output_dir):
@@ -90,6 +90,5 @@ def show_particles(I, S, W, i, ID):
     ax1.imshow(I)
 
     # saving the figure
-    # TODO: instead of saving images, create the output video
     print(f"saving image {title2}")
     fig.savefig(fname=f"{output_dir}/{title2}.png", bbox_inches='tight')

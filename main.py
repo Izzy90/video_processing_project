@@ -19,6 +19,8 @@ def main(input_vid_path, background_image_path):
     # 4 - apply tracking
     output_vid = tr.track(matted_vid)
 
+    # 5 - generate the output video from the tracked frames
+
     return output_vid
 
 
