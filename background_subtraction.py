@@ -13,14 +13,21 @@ import argparse
 # args_input = parser.parse_args()
 
 
-def matt(input_vid):
+def subtract_background(input_vid):
+    output_path = "binary_mask_vid.avi"
     cap = cv2.VideoCapture(input_vid)
-    bgSubtractor = cv2.bgsegm.createBackgroundSubtractorMOG(history=100, nmixtures=10, backgroundRatio=0.3,
-                                                            noiseSigma=0.0)
+
+    bgSubtractor = cv2.bgsegm.createBackgroundSubtractorMOG(history=10, nmixtures=3, backgroundRatio=0.9,
+                                                            noiseSigma=.0)
+
+    # bgSubtractor = cv2.bgsegm.createBackgroundSubtractorLSBP(mc=2, LSBPRadius=3, LSBPthreshold=10)
+    # bgSubtractor = cv2.createBackgroundSubtractorMOG2(varThreshold=1000, detectShadows=True)
+    # bgSubtractor = cv2.createBackgroundSubtractorKNN()
+
     fouorcc = cv2.VideoWriter_fourcc(*"MJPG")
 
     ret, frame = cap.read()
-    vid_writer = cv2.VideoWriter("output.avi", fouorcc, 30, (frame.shape[1], frame.shape[0]))
+    vid_writer = cv2.VideoWriter(output_path, fouorcc, 30, (frame.shape[1], frame.shape[0]))
 
     vid_writer2 = cv2.VideoWriter("normal.avi", fouorcc, 30, (frame.shape[1], frame.shape[0]))
 
@@ -47,7 +54,7 @@ def matt(input_vid):
                 cv2.putText(frame, timeStr, (timeTextX, timeTextY), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
 
             else:
-                fgMask = bgSubtractor.apply(frame, learningRate=0)
+                fgMask = bgSubtractor.apply(frame, learningRate=0.000000001)
 
                 img_fg = cv2.bitwise_and(frame, frame, mask=fgMask)
                 cv2.imshow('BGSUB', img_fg)
@@ -68,10 +75,9 @@ def matt(input_vid):
     cap.release()
     cv2.destroyAllWindows()
 
+    return output_path
 
-# Eyal, absoulte paths won't work everywhere. You must use relative paths.
-# matt("C:/Users/Eyal/PycharmProjects/untitled/stab.avi")
-matt("./stab.avi")
 
-# if __name__ == '__main__':
-# main()
+
+if __name__ == '__main__':
+    subtract_background("./input.avi")

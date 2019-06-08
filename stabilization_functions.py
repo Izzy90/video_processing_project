@@ -154,6 +154,8 @@ def lucas_kanade_video_stabilization(InputVid, WindowSize, MaxIter, NumLevels, N
     writer.release()
     cv2.destroyAllWindows()
 
+    return outputfileName
+
 
 if __name__ == "__main__":
     pass
