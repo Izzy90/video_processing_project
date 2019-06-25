@@ -7,9 +7,15 @@ import utilities as ut
 
 def main(input_vid_path, background_image_path):
 
+    # Each of the functions should:
+    # 1. Perform the necessary actions
+    # 2. Save the new output video
+    # 3. return a path to it
+
     # 1 - stabilize the input vid
-    # stabilized_vid = st.stabilize(input_vid_path)
-    stabilized_vid = input_vid_path
+    stabilized_vid = st.stabilize(input_vid_path)
+    # stabilized_vid = input_vid_path
+    exit(0)
 
     # 2 - subtract background from stabilized video
     binary_mask_vid = bs.subtract_background(stabilized_vid)

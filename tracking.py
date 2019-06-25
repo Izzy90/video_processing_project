@@ -24,7 +24,7 @@ def track(image_dir_path):
     S = predict_particles(np.transpose(S_temp))
 
     # LOAD FIRST IMAGE
-    I = cv2.imread(image_dir_path + os.sep + "001.png")
+    I = cv2.imread(image_dir_path + os.sep + "frame_1.jpg")
 
     # COMPUTE NORMALIZED HISTOGRAM
     q = comp_norm_hist(I, s_initial)
