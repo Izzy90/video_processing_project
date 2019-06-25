@@ -3,20 +3,20 @@ from tracking_functions import *
 
 
 def track(image_dir_path):
-    ID1 = "123456789"
-    ID2 = "987654321"
+    ID1 = "305644759"
+    ID2 = "204357529"
 
-    ID = "HW3_{0}_{1}".format(ID1, ID2)
+    ID = "tracked_{0}_{1}".format(ID1, ID2)
 
     # SET NUMBER OF PARTICLES
     N = 100
 
     # Initial Settings
-    s_initial = [297,  # x center
-                 139,  # y center
-                 16,  # half width
-                 43,  # half height
-                 0,  # velocity x
+    s_initial = [720,  # x center
+                 300,  # y center
+                 20,  # half width
+                 100,  # half height
+                 -5,  # velocity x
                  0]  # velocity y
 
     # CREATE INITIAL PARTICLE MATRIX 'S' (SIZE 6xN)
@@ -24,7 +24,7 @@ def track(image_dir_path):
     S = predict_particles(np.transpose(S_temp))
 
     # LOAD FIRST IMAGE
-    I = cv2.imread(image_dir_path + os.sep + "frame_1.jpg")
+    I = cv2.imread(image_dir_path + os.sep + "frame_001.jpg")
 
     # COMPUTE NORMALIZED HISTOGRAM
     q = comp_norm_hist(I, s_initial)
@@ -52,6 +52,9 @@ def track(image_dir_path):
         # LOAD NEW IMAGE FRAME
         image_path = image_dir_path + os.sep + image_name
         I = cv2.imread(image_path)
+
+        # plt.imshow(I)
+        # plt.show()
 
         # SAMPLE THE CURRENT PARTICLE FILTERS
         S_next_tag = sample_particles(S_prev, C)

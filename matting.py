@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 def add_background_image(input_vid_path, background_image_path):
     im_shape = (720, 1280, 3)
     output_path = "matted_output_vid.avi"
@@ -63,7 +64,6 @@ def main():
         fr_foreground = foreground.read()[1]/255
         fr_background = background/255
         fr_alpha = 0.75
-
 
         cv2.imshow('My Image',cmb(fr_foreground,fr_background,fr_alpha))
 

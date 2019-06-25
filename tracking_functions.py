@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os
 import matplotlib.patches as ptc
+import cv2
 
 
 def comp_norm_hist(I, s):
@@ -59,8 +60,8 @@ def sample_particles(S_prev, C):
 
 
 def show_particles(I, S, W, i, ID):
-    title = f"{ID} - Frame number = {i}"
-    title2 = f"{ID}-{i}"
+    title = f"{ID} - Frame number = {i:03d}"
+    title2 = f"{ID}-{i:03d}"
     output_dir = "tracked_images"
 
     # create output directory if doesn't exist
@@ -87,7 +88,8 @@ def show_particles(I, S, W, i, ID):
     ax1.add_patch(rect2)
 
     # Display the image
-    ax1.imshow(I)
+    ax1.imshow(cv2.cvtColor(I, cv2.COLOR_BGR2RGB))
+    # plt.show()
 
     # saving the figure
     print(f"saving image {title2}")

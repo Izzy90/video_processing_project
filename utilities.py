@@ -17,7 +17,7 @@ def save_video_frames(input_vid_path, folder_name="input_frames"):
         ret, frame = input_vid.read()
         if ret:
             # save frame to frames folder
-            cv2.imwrite(f"{folder_name}/frame_{frame_num}.jpg", frame)
+            cv2.imwrite(f"{folder_name}/frame_{frame_num:03d}.jpg", frame)
             frame_num += 1
         else:
             break
@@ -64,5 +64,19 @@ def write_video(input_vid_path, output_vid_path, processing_function):
         else:
             break
     cap.release()
+    writer.release()
+    cv2.destroyAllWindows()
+
+
+def create_video_from_image_folder(input_folder, output_file_path):
+    # TODO - change imgSize as necessary
+    imgSize = (555, 416)
+    frame_per_second = 30.0
+    writer = cv2.VideoWriter(output_file_path, cv2.VideoWriter_fourcc(*"MJPG"), frame_per_second, imgSize)
+
+    image_name_list = os.listdir(input_folder)
+    for image_name in image_name_list:
+        frame = cv2.imread(input_folder + os.sep + image_name)
+        writer.write(frame)  # save the frame into video file
     writer.release()
     cv2.destroyAllWindows()
