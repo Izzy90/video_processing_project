@@ -92,5 +92,7 @@ def show_particles(I, S, W, i, ID):
     # plt.show()
 
     # saving the figure
-    print(f"saving image {title2}")
+    # print(f"saving image {title2}")
     fig.savefig(fname=f"{output_dir}/{title2}.png", bbox_inches='tight')
+
+    plt.close(fig)

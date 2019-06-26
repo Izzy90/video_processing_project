@@ -1,5 +1,6 @@
 import cv2
 from tracking_functions import *
+from utilities import printProgressBar
 
 
 def track(image_dir_path):
@@ -12,7 +13,7 @@ def track(image_dir_path):
     N = 100
 
     # Initial Settings
-    s_initial = [720,  # x center
+    s_initial = [920,  # x center
                  300,  # y center
                  20,  # half width
                  100,  # half height
@@ -45,7 +46,11 @@ def track(image_dir_path):
 
     # MAIN TRACKING LOOP
     image_name_list = os.listdir(image_dir_path)
-    for image_name in image_name_list[1:]:
+    length = len(image_name_list)
+
+    for index, image_name in enumerate(image_name_list[1:]):
+
+        printProgressBar(index, length)
 
         S_prev = S
 
