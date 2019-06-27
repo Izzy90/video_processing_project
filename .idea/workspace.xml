@@ -2,140 +2,330 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8f4186e-d54a-40d7-819b-aa6f7d2e2246" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/video_processing_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/video_processing_project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StabilizedVid.avi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Videos/StabilizedVid.avi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Videos/binary_mask_vid.avi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Videos/input.avi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Videos/matted_output_vid.avi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Videos/normal.avi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Videos/output.avi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/background2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.avi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_28.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_29.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_30.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_31.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_32.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_33.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_34.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_35.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_36.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_37.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_38.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_39.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_40.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_41.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_42.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_43.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_44.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_45.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_46.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_47.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_48.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_49.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_50.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_51.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_52.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_53.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_54.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_55.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_56.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_57.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_58.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_59.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_60.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_61.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_62.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matted_vid_frames/frame_9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matting.py" beforeDir="false" afterPath="$PROJECT_DIR$/matting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-002.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-002.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-003.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-003.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-004.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-004.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-005.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-005.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-006.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-006.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-007.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-007.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-008.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-008.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-009.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-009.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-010.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-010.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-011.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-011.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-012.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-012.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-013.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-013.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-014.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-014.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-015.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-015.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-016.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-016.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-017.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-017.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-018.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-018.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-019.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-019.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-020.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-020.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-021.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-021.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-022.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-022.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-023.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-023.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-024.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-024.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-025.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-025.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-026.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-026.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-027.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-027.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-028.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-028.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-029.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-029.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-030.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-030.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-031.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-031.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-032.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-032.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-033.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-033.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-034.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-034.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-035.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-035.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-036.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-036.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-037.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-037.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-038.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-038.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-039.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-039.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-040.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-040.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-041.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-041.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-042.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-042.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-043.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-043.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-044.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-044.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-045.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-045.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-046.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-046.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-047.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-047.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-048.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-048.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-049.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-049.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-050.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-050.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-051.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-051.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-052.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-052.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-053.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-053.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-054.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-054.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-055.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-055.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-056.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-056.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking.py" beforeDir="false" afterPath="$PROJECT_DIR$/tracking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/tracking_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trimap.py" beforeDir="false" afterPath="$PROJECT_DIR$/trimap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Irrelevants/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Irrelevants/background2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Irrelevants/input.avi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/background4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/background_subtraction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_output_vid_4.avi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_018.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_019.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_020.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_021.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_022.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_023.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_025.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_026.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_027.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_028.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_029.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_030.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_031.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_032.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_033.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_034.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_035.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_036.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_037.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_038.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_039.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_040.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_041.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_042.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_043.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_044.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_045.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_046.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_047.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_048.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_049.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_050.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_051.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_052.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_053.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_054.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_055.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_3_frames/frame_056.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_018.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_019.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_020.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_021.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_022.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_023.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_025.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_026.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_027.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_028.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_029.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_030.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_031.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_032.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_033.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_034.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_035.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_036.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_037.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_038.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_039.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_040.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_041.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_042.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_043.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_044.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_045.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_046.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_047.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_048.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_049.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_050.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_051.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_052.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_053.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_054.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_055.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_056.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_057.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_058.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_059.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_060.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_061.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_062.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_063.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_064.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_065.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_066.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_067.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_068.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_069.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_070.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_071.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_072.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_073.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_074.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_075.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_076.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_077.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_078.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_079.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_080.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_081.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_082.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matted_vid_4_frames/frame_083.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stabilization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stabilization_functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_4.avi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-012.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-013.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-014.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-015.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-016.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-017.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-018.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-020.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-021.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-022.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-023.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-025.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-026.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-027.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-028.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-029.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-030.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-031.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-032.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-033.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-034.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-035.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-036.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-037.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-038.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-039.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-040.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-041.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-042.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-043.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-044.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-045.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-046.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-047.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-048.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-049.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-050.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-051.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-052.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-053.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-054.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-055.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-056.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-057.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-058.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-059.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-060.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-061.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-062.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-063.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-064.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-065.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-066.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-067.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-068.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-069.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-070.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-071.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-072.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-073.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-074.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-075.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-076.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-077.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-078.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-079.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-080.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-081.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-082.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracked_images/tracked_305644759_204357529-083.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking_functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_012.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_013.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_014.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_015.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_016.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_017.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_018.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_020.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_021.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_022.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_023.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_025.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_026.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_027.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_028.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_029.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_030.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_031.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_032.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_033.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_034.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_035.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_036.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_037.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_038.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_039.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_040.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_041.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_042.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_043.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_044.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_045.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_046.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_047.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_048.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_049.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_050.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_051.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_052.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_053.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_054.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_055.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_056.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_057.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_058.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_059.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_060.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_061.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_062.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_063.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_064.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_065.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_066.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_067.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_068.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_069.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_070.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_071.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_072.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_073.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_074.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_075.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_076.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_077.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_078.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_079.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_080.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_081.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_082.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_083.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_frames/trimap_mask_084.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trimap_vid.avi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/walking_input.avi" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -162,134 +352,44 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="jpg" value="12" />
+          <entry key="md" value="1" />
           <entry key="png" value="1" />
-          <entry key="py" value="57" />
+          <entry key="py" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="13" />
+          <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="57" />
+          <entry key="Python" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="52" />
+          <entry key="dummy" value="57" />
           <entry key="gitignore" value="20" />
-          <entry key="py" value="5760" />
+          <entry key="py" value="6143" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="72" />
-          <entry key="Python" value="5760" />
+          <entry key="PLAIN_TEXT" value="77" />
+          <entry key="Python" value="6143" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CODE/runme.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="34" column="71" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
+            <state relative-caret-position="1375">
+              <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <marker date="1561550639052" expanded="true" signature="1345:1351" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tracking_functions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="95" column="37" selection-start-line="95" selection-start-column="37" selection-end-line="95" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/background_subtraction.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/matting.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="27" selection-end-column="63" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tracking.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-                <marker date="1561537110988" expanded="true" signature="111:112" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trimap.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="90" column="26" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utilities.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2050">
-              <caret line="84" selection-start-line="84" selection-end-line="84" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/playground.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -317,25 +417,27 @@
         <option value="$PROJECT_DIR$/stabilizer.py" />
         <option value="$PROJECT_DIR$/utilitiles.py" />
         <option value="$PROJECT_DIR$/background_substraction.py" />
-        <option value="$PROJECT_DIR$/stabilization.py" />
         <option value="$PROJECT_DIR$/stabilization_functions.py" />
         <option value="$PROJECT_DIR$/background_subtraction.py" />
         <option value="$PROJECT_DIR$/playground.py" />
         <option value="$PROJECT_DIR$/tracking_functions.py" />
-        <option value="$PROJECT_DIR$/tracking.py" />
         <option value="$PROJECT_DIR$/utilities.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/stabilization.py" />
         <option value="$PROJECT_DIR$/matting.py" />
         <option value="$PROJECT_DIR$/trimap.py" />
+        <option value="$PROJECT_DIR$/tracking.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/runme.py" />
+        <option value="$PROJECT_DIR$/CODE/runme.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
+    <option name="x" value="272" />
+    <option name="y" value="-25" />
     <option name="width" value="980" />
-    <option name="height" value="1050" />
+    <option name="height" value="1002" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -353,6 +455,16 @@
               <item name="video_processing_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="video_processing_project" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="video_processing_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="video_processing_project" type="462c0819:PsiDirectoryNode" />
+              <item name="CODE" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="video_processing_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="video_processing_project" type="462c0819:PsiDirectoryNode" />
+              <item name="Input" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -362,6 +474,11 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Yizhar\video_processing_project\CODE" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -375,7 +492,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.runme">
     <configuration name="background_substraction" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="video_processing_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -409,7 +526,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="D:\Yizhar\video_processing_project\runme.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -431,6 +548,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/playground.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="runme" type="PythonConfigurationType" factoryName="Python">
+      <module name="video_processing_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CODE" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CODE/runme.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -482,6 +620,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.runme" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.background_substraction" />
       <item itemvalue="Python.playground" />
@@ -512,20 +651,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18374091" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.49716714" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23796034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4362606" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.5736544" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.70963174" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -540,64 +678,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/stabilization_functions.py</url>
-          <line>154</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/stabilization_functions.py</url>
-          <line>138</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/playground.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tracking.py</url>
-          <line>61</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tracking_functions.py</url>
-          <line>91</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tracking.py</url>
-          <line>50</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>42</line>
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/matting.py</url>
-          <line>55</line>
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/matting.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/matting.py</url>
-          <line>29</line>
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/matting.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="69" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/trimap.py</url>
-          <line>87</line>
-          <option name="timeStamp" value="71" />
+          <url>file://$PROJECT_DIR$/CODE/runme.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="75" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -669,13 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stabilization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/background.jpg" />
     <entry file="file://$PROJECT_DIR$/background2.jpg" />
     <entry file="file://$PROJECT_DIR$/matted_vid_frames/frame_1.jpg" />
@@ -690,31 +766,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utilities.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2050">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/background_subtraction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tracking.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1561537110988" expanded="true" signature="111:112" ph="..." />
-          </folding>
+        <state relative-caret-position="50">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -728,10 +783,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/background_subtraction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="74" column="27" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/matting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="27" selection-end-column="63" />
+        <state relative-caret-position="74">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -740,21 +812,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/trimap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="90" column="26" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
+        <state relative-caret-position="150">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/stabilization.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="34" column="71" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
+        <state relative-caret-position="360">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runme.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <marker date="1561550639052" expanded="true" signature="1345:1351" ph="..." />
           </folding>
         </state>
       </provider>
@@ -769,10 +860,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/CODE/stabilization.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="198">
+          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CODE/runme.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1375">
+          <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
